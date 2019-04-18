@@ -1,0 +1,25 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "a side project from scratch",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "keywords": [],
+  "author": "Mohamed Wagdy @mowagdy",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "core-js": "^3.0.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6"
+  }
+}
