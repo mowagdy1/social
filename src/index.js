@@ -1,10 +1,10 @@
 import Vue from 'vue';
-// import routes from "./routes.js";
+import router from "./router.js";
 import Home from './components/Home.vue';
 
 
 const app = new Vue({
-    // router: routes,
+    router,
     render: h => h(Home),
 }).$mount('#app');
 

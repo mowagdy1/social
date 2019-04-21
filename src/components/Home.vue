@@ -1,5 +1,8 @@
 <template>
-    <div>hello vue app</div>
+    <div>
+        hello vue app
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
